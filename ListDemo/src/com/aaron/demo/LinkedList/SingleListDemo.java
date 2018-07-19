@@ -1,4 +1,4 @@
-package com.aaron.demo;
+package com.aaron.demo.LinkedList;
 
 public class SingleListDemo {
     public static void main(String args[]){
