@@ -19,17 +19,16 @@ public class NetworkService {
     }
 
     public void run(){
-        /*try{
+        try{
             for(;;){
-
-                System.out.println("accept");
+                pool.execute(new Handler(serverSocket.accept()));
             }
         }catch (Exception e){
             pool.shutdown();
-        }*/
+        }
 
-        pool.execute(new Handler(null));
-        shutdownAndAwaitTermination();
+        //pool.execute(new Handler(null));
+        //shutdownAndAwaitTermination();
     }
 
     class Handler implements Runnable{
