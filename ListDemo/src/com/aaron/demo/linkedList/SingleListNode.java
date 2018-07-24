@@ -1,4 +1,4 @@
-package com.aaron.demo.LinkedList;
+package com.aaron.demo.linkedList;
 
 public class SingleListNode {
 

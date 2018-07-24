@@ -1,9 +1,6 @@
-package com.aaron.demo.Executors;
+package com.aaron.demo.executors;
 
 import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 public class ExecutorsDemo {
 
